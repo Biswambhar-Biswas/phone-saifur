@@ -22,27 +22,64 @@
 
 
 <nav class="mainNav">
-    <i id="ion" class="fa-solid fa-bars" onclick="hide()" onmouseout="mousetwo()"></i>
+    <i id="ion" class="fa-solid fa-bars" onclick="hide()"></i>
 </nav>
-
+<div class="whatsapp"><a href="https://wa.me/+919732721020"><i class="fa-brands fa-whatsapp"></i></a></div>
 
 
 
 <br>
-
+<div class="owner">Md.Majibur Rahaman</div>
 <div class="headder">
 
     <div class="MotoOne">Best E Rickshaw in Berhampore</div>
     <div class="MotoTwo">There are 334 E Rickshaws currently available for sale. The best E Rickshaw models under this bracket are the Mahindra Treo Yaari, YC Electric Yatri Super and Mini Metro E Rickshaw.</div>
     <img src="toto.gif">
 </div>
-<!--  -->
+<!-- 1 -->
+
+
+<div class="viewallcard" id="viewallcard">
+    <div class="cross" id="cross" onclick="cross()"><i class="fa-solid fa-circle-xmark" style="color: #ff0000;"></i>
+    </div>
+    <div class="bankoffer">
+        <p id="emi">EMI OFFERS%</p>
+        <table id="emiPrice">
+            <tr>
+                <th>6 Months</th>
+                <th>1 month</th>
+                <th>1 year</th>
+            </tr>
+            <tr>
+                <td>₹0000</td>
+                <td>₹0000</td>
+                <td>₹0000</td>
+        </tr>
+        </table>
+    </div>
+    <div class="avelableEmi">
+        You Have Not Any Offer On EMI<i class="fa-regular fa-face-frown fa-beat-fade" style="color: #ff3d3d;"></i>
+    </div>
+</div>
+<div class="color" id="color">
+    <div class="cross" onclick="crosstwo()"><i class="fa-solid fa-circle-xmark" style="color: #ff0000;"></i></div>
+    <div class="allcolor">
+        <div class="ColorOne"></div>
+        <div class="ColorTwo"></div>
+        <div class="ColorThree"></div>
+        <div class="ColorFour"></div>
+    </div>
+</div>
+
+
+
 <div class="card">
-<div class="mainimage"><img src="123.webp" alt="toto"></div>
+
+<div class="mainimage"><a href="#"><img src="https://assets.tractorjunction.com/truck-junction/assets/images/truck/pro-ss-1690537786.webp" alt="toto"></a></div>
 
 <div class="price">
-    <p id="name">NAME</p>
-    <p id="modelprice">PRICE &nbsp&nbsp&nbsp-&nbsp&nbsp&nbsp 000000</p>
+    <p id="name">Move Stone</p>
+    <p id="modelprice">PRICE &nbsp&nbsp&nbsp-&nbsp&nbsp&nbsp ₹1,12,000</p>
 </div>
 
 <div class="allSepc">
@@ -56,17 +93,52 @@
         <li id="orderli">Electric</li>
     </ul>
 </div>
-<div class="btn"><button id="btnOne">View All Offers</button></div>
-<div class="btn"><button id="btnTwo">Get On Road Price</button></div>
+<div class="btn" id="btn" ><button id="btnOne" onclick="btnOne()" >View All Offers</button></div>
+<div class="btn"><button id="btnTwo" onclick="btnTwo()">Color Options</button></div>
 </div>
 
 <br>
 
-<!--  -->
+<!-- 2 -->
+<div class="viewallcard" id="viewallcardTwo">
+    <div class="cross" id="cross" onclick="crossThree()"><i class="fa-solid fa-circle-xmark" style="color: #ff0000;"></i>
+    </div>
+    <div class="bankoffer">
+        <p id="emi">EMI OFFERS %</p>
+        <table id="emiPrice">
+            <tr>
+                <th>6 Months</th>
+                <th>1 month</th>
+                <th>1 year</th>
+            </tr>
+            <tr>
+                <td>₹1000</td>
+                <td>₹1000</td>
+                <td>₹1000</td>
+        </tr>
+        </table>
+    </div>
+    <div class="avelableEmi">
+        You Have Not Any Offer On EMI<i class="fa-regular fa-face-frown fa-beat-fade" style="color: #ff3d3d;"></i>
+    </div>
+</div>
+
+<div class="color" id="colorTwo">
+    <div class="cross" onclick="crossFour()"><i class="fa-solid fa-circle-xmark" style="color: #ff0000;"></i></div>
+    <div class="allcolor">
+        <div class="ColorOne"></div>
+        <div class="ColorTwo"></div>
+        <!-- <div class="ColorThree"></div> -->
+        <div class="ColorFour"></div>
+    </div>
+</div>
+
+
 <div class="card">
-    <div class="mainimage"><img src="123.webp" alt="toto"></div>
+    <div class="mainimage"><img src="https://4.imimg.com/data4/PV/HM/ANDROID-15049692/product-1000x1000.jpeg" alt="toto"></div>
     <div class="price">
-        <p id="name">NAME</p>
+        <p id="name">Hitech e-rickshaw
+        </p>
         <p id="modelprice">PRICE &nbsp&nbsp&nbsp-&nbsp&nbsp&nbsp 000000</p>
     </div>
     <div class="allSepc">
@@ -80,14 +152,14 @@
             <li id="orderli">Electric</li>
         </ul>
     </div>
-    <div class="btn"><button id="btnOne">View All Offers</button></div>
-    <div class="btn"><button id="btnTwo">Get On Road Price</button></div>
+    <div class="btn"><button id="btnOne" id="btnThree" onclick="btnThree()">View All Offers</button></div>
+    <div class="btn"><button id="btnTwo" id="btnFour" onclick="btnFour()">Color Options</button></div>
     </div>
     
     <br>
     
-    <!--  -->
-    <div class="card">
+    <!-- 3 -->
+    <!-- <div class="card">
         <div class="mainimage"><img src="123.webp" alt="toto"></div>
         <div class="price">
             <p id="name">NAME</p>
@@ -107,12 +179,13 @@
         <div class="btn"><button id="btnOne">View All Offers</button></div>
         <div class="btn"><button id="btnTwo">Get On Road Price</button></div>
         </div>
-        <br>
+        <br> -->
         
         <!--  -->
 
 
         <script>
+// hamburgar dropdown
             function hide(){
 
                if(ioon.style.display != 'none'){
@@ -129,6 +202,47 @@
 
                }
             }
+
+//1 
+            function cross(){
+                viewallcard.style.display='none';
+            }
+            function btnOne(){
+                viewallcard.style.display='block';
+                color.style.display='none';
+            }
+            function crosstwo(){
+                color.style.display='none';
+
+            }
+            function btnTwo(){
+                color.style.display='block';
+                viewallcard.style.display='none';
+            }
+
+
+
+
+// 2
+            function crossThree(){
+                viewallcardTwo.style.display='none';
+            }
+            function btnThree(){
+                viewallcardTwo.style.display='block';
+                colorTwo.style.display='none'
+
+            }
+
+            function btnFour(){
+                colorTwo.style.display='block';
+                viewallcardTwo.style.display='none';
+            }
+
+            function crossFour(){
+                colorTwo.style.display='none'
+            }
+
+
 
         </script>
 
