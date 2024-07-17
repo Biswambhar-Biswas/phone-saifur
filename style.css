@@ -63,7 +63,7 @@
         z-index: 2;
         position: sticky;
         top: 50px;
-        background-color: rgb(33, 253, 13);
+        background-color: rgb(29, 230, 117);
         height: auto;
         width: 70px;
         text-align: center;
@@ -75,6 +75,7 @@
     }
     .whatsapp i{
         font-size: 40px;
+        color: rgb(255, 255, 255);
     }
 
     .owner{
@@ -83,9 +84,9 @@
         position: absolute;
         top: 50px;
         right: 10px;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        /* font-weight: bolder; */
-        filter: drop-shadow(6px 4px rgba(44, 43, 43, 0.151));
+        font-family: cursive;
+        font-weight: bolder;
+        filter: drop-shadow(1.5px 1.5px rgba(44, 43, 43, 0.151));
     }
 
 
