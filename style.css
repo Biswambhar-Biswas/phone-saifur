@@ -155,9 +155,11 @@
     .allSepc{
         /* background-color: yellow; */
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
+        gap: 10px;
         height: auto;
         width: 100%;
+        text-align: center;
     }
     #unorder{
         font-family: roboto, Sans-Serif, Arial;
@@ -308,6 +310,11 @@
         align-items: center;
         
     }
+    .allcolortwo{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
 
 
     .ColorOne{
@@ -321,7 +328,8 @@
         
     }
     .ColorTwo{
-        background-color: yellow;
+        background-color: white;
+        border: 1px solid black;
         justify-content: center;
         align-items: center;
         height: 50px;
@@ -340,6 +348,33 @@
     }
     .ColorFour{
         background-color: blue;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        width: 50px;
+        display: flex;
+        border-radius: 50%;
+    }
+    .ColorFive{
+        background-color: #086F9B;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        width: 50px;
+        display: flex;
+        border-radius: 50%;
+    }
+    .colorSix{
+        background-color: seagreen;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        width: 50px;
+        display: flex;
+        border-radius: 50%;
+    }
+    .colorSeven{
+        background-color: gray;
         justify-content: center;
         align-items: center;
         height: 50px;
