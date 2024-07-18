@@ -105,6 +105,26 @@
         filter: drop-shadow(1.5px 1.5px rgba(44, 43, 43, 0.151));
     }
 
+    .accessoriesBtn{
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+
+    }
+    .accessoriesBtn button{
+        border: 2px solid #F75D33;
+        height: 40px;
+        width: 70px;
+        color: #F75D33;
+        background-color: #ffffff;
+        border-radius:5px ;
+        filter: drop-shadow(2px 2px #52130267);
+        font-weight: bold;
+        font-size: 15px;
+        cursor: pointer;
+
+    }
+
 
     .headder{
         /* background-color: aquamarine; */
@@ -192,12 +212,14 @@
         font-weight: 500;
     }
     .card{
-        border: 1px solid gray;
+        /* border: 1px solid gray; */
         border-radius: 20px;
         background-color: white;
         width: 100%;
         overflow: hidden;
         background-size: cover;
+        box-shadow: 1px 1px gray;
+        box-shadow: 0 0 1px 1px gray;
 
     }
 
@@ -415,6 +437,53 @@
         float: right;
 
     }
+
+
+
+/* Home */
+/* 
+    #homeColor{
+        border-bottom: 2px solid #000000;
+        padding:3px ;
+        filter: drop-shadow(1px 2px gray);
+        
+    }
+    #batteryColor{
+        border-bottom: 2px solid #000000;
+        padding:3px ;
+        filter: drop-shadow(1px 2px gray);
+
+    }
+    #partsColor{
+
+      border-bottom: 2px solid #000000;
+    padding:3px ;
+    filter: drop-shadow(1px 2px gray);
+
+}   */
+
+
+/* Battery */
+    #cardBatteryOne{
+        display: none;
+    }
+    #cardBatteryTwo{
+        display: none;
+    }
+    #cardBatteryThree{
+        display: none;
+    }
+
+
+
+    /* Parts */
+    #cardPartsOne{
+        display: none;
+    }
+    #cardPartsTwo{
+        display: none;
+    }
+
 }
 
 
