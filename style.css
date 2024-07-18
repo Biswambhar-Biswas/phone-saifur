@@ -16,7 +16,6 @@
         backdrop-filter: blur(30px);
 
 
-
     }
 
     .dropdown a{
@@ -46,7 +45,6 @@
         width: 100%;
         overflow: hidden;
         z-index: 2;
-
     }
     .mainNav i{
         font-size: 25px;
@@ -194,12 +192,13 @@
         font-weight: 500;
     }
     .card{
-        border: 1px solid gray;
+        /* border: 1px solid gray; */
         border-radius: 20px;
         background-color: white;
         width: 100%;
         overflow: hidden;
         background-size: cover;
+
     }
 
     .btn{
