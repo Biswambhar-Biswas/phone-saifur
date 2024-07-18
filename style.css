@@ -1,4 +1,4 @@
-@media screen and (max-width:480px) {
+/* @media screen and (max-width:480px) { */
     body{
         margin: 0 2px;
         padding: 0px;
@@ -484,6 +484,6 @@
         display: none;
     }
 
-}
+/* } */
 
 
