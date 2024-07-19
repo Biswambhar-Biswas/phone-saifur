@@ -270,8 +270,9 @@
     .viewallcard{
         background:rgba(255, 255, 255, 0.884); 
         height: auto;
-
+        border: 1px solid black;
         width: 80%;
+        border-radius: 3px;
 
         transform: translate(13%);
 
@@ -356,6 +357,8 @@
         top: 45%;
         display: none;
         transform: translate(25%);
+        border: 1px solid black;
+        border-radius: 3px;
     }
     .allcolor{
         display: flex;
