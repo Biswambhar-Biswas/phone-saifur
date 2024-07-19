@@ -35,7 +35,7 @@
 
 <div class="accessoriesBtn">
     <div class="Home" id="homeColor"><button id="Home" onclick="Home()">Home</button></div>
-    <div class="Battery" id="batteryColor"><button id="Battery"  onclick="Battery()">Battery</button></div>
+    <div class="Battery" id="batteryColor"><button id="Battery kalopod"  onclick="Battery()">Battery</button></div>
     <div class="Parts" id="partsColor"><button id="Parts" onclick="Parts()">Parts</button></div>
 </div>
 
@@ -583,18 +583,31 @@
 // boxshadow
                 homeColor.style.padding='none';
                 homeColor.style.filter='none';
+                homeColor.style.border='none';
+                homeColor.style.borderRadius='none';
 
 
                 partsColor.style.padding='none';
                 partsColor.style.filter='none';
+                partsColor.style.border='none';
+                partsColor.style.borderRadius='none';
 
 
                 batteryColor.style.padding='3px';
-                batteryColor.style.filter='drop-shadow(0px 2px black)';
+                batteryColor.style.border='2px solid #F75D33';
+                batteryColor.style.borderRadius='5px';
+                // batteryColor.style.backgroundColor='#F75D33';
+
+                
+
+
+                // batteryColor.style.filter='drop-shadow(0px 2px black)';
 
 
 
             }
+            // document.getElementById('Battery').style.backgroundColor='red';
+
 
 // home
             function Home(){
@@ -612,15 +625,21 @@
 
 // boxshadow
                 homeColor.style.padding='3px';
-                homeColor.style.filter='drop-shadow(1px 2px black)';
+                // homeColor.style.filter='drop-shadow(1px 2px black)';
+                homeColor.style.border='2px solid #F75D33';
+                homeColor.style.borderRadius='5px';
 
 
                 partsColor.style.padding='none';
                 partsColor.style.filter='none';
+                partsColor.style.border='none';
+                partsColor.style.borderRadius='none';
 
 
                 batteryColor.style.padding='none';
                 batteryColor.style.filter='none';
+                batteryColor.style.border='none';
+                batteryColor.style.borderRadius='none';none
 
 
             }
@@ -642,14 +661,22 @@
 // boxshadow
                 homeColor.style.padding='none';
                 homeColor.style.filter='none';
+                homeColor.style.border='none';
+                homeColor.style.borderRadius='none';
 
 
                 partsColor.style.padding='3px';
-                partsColor.style.filter='drop-shadow(-1px 2px black)';
+                // partsColor.style.filter='drop-shadow(-1px 2px black)';
+                partsColor.style.border='2px solid #F75D33';
+                partsColor.style.borderRadius='5px';
+
+
  
 
                 batteryColor.style.padding='none';
                 batteryColor.style.filter='none';
+                batteryColor.style.border='none';
+
 
 
             }

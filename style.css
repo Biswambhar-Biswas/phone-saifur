@@ -113,7 +113,8 @@
 
     }
     .accessoriesBtn button{
-        border: 2px solid #F75D33;
+        /* border: 2px solid #F75D33; */
+        border: transparent;
         height: 40px;
         width: 90px;
         color: #F75D33;
@@ -462,7 +463,11 @@
     filter: drop-shadow(1px 2px gray);
 
 }   */
-
+#homeColor{
+    border-radius: 5px;
+    border:2px solid #F75D33;
+    padding: 3px;
+}
 
 /* Battery */
     #cardBatteryOne{
@@ -486,5 +491,3 @@
     }
 
 /* } */
-
-
