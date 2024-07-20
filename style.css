@@ -482,6 +482,24 @@
     #cardBatteryThree{
         display: none;
     }
+    #cardBatteryFour{
+        display: none;
+    }    #cardBatteryFive{
+        display: none;
+    }    #cardBatterySix{
+        display: none;
+    }    #cardBatterySeven{
+        display: none;
+    }    #cardBatteryEight{
+        display: none;
+    }
+    #cardBatteryNine{
+        display: none;
+    }
+    .batterylist{
+        position: relative;
+        top: -50px;
+    }
 
 
 
