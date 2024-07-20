@@ -97,13 +97,14 @@
 
     .owner{
         /* background-color: teal; */
-        font-size: 25px;
+        font-size: 22px;
         position: absolute;
-        top: 50px;
-        right: 10px;
+        top: 0px;
+        left: 10px;
         font-family: cursive;
         font-weight: bolder;
         filter: drop-shadow(1.5px 1.5px rgba(44, 43, 43, 0.151));
+        z-index: 3;
     }
 
     .accessoriesBtn{
@@ -271,10 +272,10 @@
         background:rgba(255, 255, 255, 0.884); 
         height: auto;
         border: 1px solid black;
-        width: 80%;
+        width: 70%;
         border-radius: 3px;
 
-        transform: translate(13%);
+        transform: translate(21%);
 
         position: fixed;
         top: 30%;
@@ -315,9 +316,8 @@
         text-align: center;
     }
     #emiPrice th{
-        font-weight: bold;
-        padding:20px ;
-        font-size: 19px;
+        padding:10px ;
+        font-size: 15px;
 
     }
     #emiPrice td{
